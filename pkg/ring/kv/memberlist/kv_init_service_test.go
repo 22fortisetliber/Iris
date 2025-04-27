@@ -9,7 +9,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/util/flagext"
+	"github.com/22fortisetliber/iris/pkg/util/flagext"
 )
 
 func TestPage(t *testing.T) {

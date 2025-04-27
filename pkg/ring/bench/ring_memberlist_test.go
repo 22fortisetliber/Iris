@@ -10,11 +10,11 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/ring"
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/ring/kv/codec"
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/ring/kv/memberlist"
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/util/flagext"
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/util/services"
+	"github.com/22fortisetliber/iris/pkg/ring"
+	"github.com/22fortisetliber/iris/pkg/ring/kv/codec"
+	"github.com/22fortisetliber/iris/pkg/ring/kv/memberlist"
+	"github.com/22fortisetliber/iris/pkg/util/flagext"
+	"github.com/22fortisetliber/iris/pkg/util/services"
 )
 
 type dnsProviderMock struct {

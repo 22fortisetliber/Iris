@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/ring"
+	"github.com/22fortisetliber/iris/pkg/ring"
 )
 
 func TestNewRingServiceDiscovery(t *testing.T) {

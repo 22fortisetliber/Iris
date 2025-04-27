@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v2"
 
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/ring/kv/codec"
+	"github.com/22fortisetliber/iris/pkg/ring/kv/codec"
 )
 
 func TestParseConfig(t *testing.T) {

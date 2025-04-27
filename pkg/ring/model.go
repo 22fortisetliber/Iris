@@ -9,8 +9,8 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/ring/kv/codec"
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/ring/kv/memberlist"
+	"github.com/22fortisetliber/iris/pkg/ring/kv/codec"
+	"github.com/22fortisetliber/iris/pkg/ring/kv/memberlist"
 )
 
 // ByAddr is a sortable list of InstanceDesc.

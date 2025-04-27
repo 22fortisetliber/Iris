@@ -13,7 +13,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/health/grpc_health_v1"
 
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/util/services"
+	"github.com/22fortisetliber/iris/pkg/util/services"
 )
 
 type mockClient struct {

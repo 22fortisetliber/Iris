@@ -17,11 +17,11 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/ring/kv"
-	shardUtil "gitlab.fci.vn/iaas/cortexproject/iris/pkg/ring/shard"
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/util"
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/util/flagext"
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/util/services"
+	"github.com/22fortisetliber/iris/pkg/ring/kv"
+	shardUtil "github.com/22fortisetliber/iris/pkg/ring/shard"
+	"github.com/22fortisetliber/iris/pkg/ring/util"
+	"github.com/22fortisetliber/iris/pkg/util/flagext"
+	"github.com/22fortisetliber/iris/pkg/util/services"
 )
 
 const (

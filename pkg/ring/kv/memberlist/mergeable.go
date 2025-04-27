@@ -3,7 +3,7 @@ package memberlist
 import (
 	"time"
 
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/ring/kv/codec"
+	"github.com/22fortisetliber/iris/pkg/ring/kv/codec"
 )
 
 // Mergeable is an interface that values used in gossiping KV Client must implement.
