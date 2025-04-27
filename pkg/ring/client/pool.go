@@ -13,8 +13,8 @@ import (
 	"github.com/weaveworks/common/user"
 	"google.golang.org/grpc/health/grpc_health_v1"
 
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/util"
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/util/services"
+	"github.com/22fortisetliber/iris/pkg/util"
+	"github.com/22fortisetliber/iris/pkg/util/services"
 )
 
 // PoolClient is the interface that should be implemented by a

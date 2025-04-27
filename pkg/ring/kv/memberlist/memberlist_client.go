@@ -19,10 +19,10 @@ import (
 	"github.com/hashicorp/memberlist"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/ring/kv/codec"
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/util/backoff"
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/util/flagext"
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/util/services"
+	"github.com/22fortisetliber/iris/pkg/ring/kv/codec"
+	"github.com/22fortisetliber/iris/pkg/util/backoff"
+	"github.com/22fortisetliber/iris/pkg/util/flagext"
+	"github.com/22fortisetliber/iris/pkg/util/services"
 )
 
 const (

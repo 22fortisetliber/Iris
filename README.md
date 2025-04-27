@@ -1,2 +1,2 @@
 ## Iris
-An Microservice - Alertmanager alternative
+A WIP drop in replacement for Prometheus Alertmanager

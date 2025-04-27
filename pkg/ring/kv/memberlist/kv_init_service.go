@@ -17,7 +17,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/atomic"
 
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/util/services"
+	"github.com/22fortisetliber/iris/pkg/util/services"
 )
 
 // KVInitService initializes a memberlist.KV on first call to GetMemberlistKV, and starts it. On stop,

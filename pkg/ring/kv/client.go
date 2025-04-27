@@ -10,11 +10,11 @@ import (
 	"github.com/go-kit/log"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/ring/kv/codec"
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/ring/kv/consul"
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/ring/kv/dynamodb"
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/ring/kv/etcd"
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/ring/kv/memberlist"
+	"github.com/22fortisetliber/iris/pkg/ring/kv/codec"
+	"github.com/22fortisetliber/iris/pkg/ring/kv/consul"
+	"github.com/22fortisetliber/iris/pkg/ring/kv/dynamodb"
+	"github.com/22fortisetliber/iris/pkg/ring/kv/etcd"
+	"github.com/22fortisetliber/iris/pkg/ring/kv/memberlist"
 )
 
 const (

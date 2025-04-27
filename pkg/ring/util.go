@@ -11,7 +11,7 @@ import (
 	"github.com/go-kit/log"
 	"github.com/go-kit/log/level"
 
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/util/backoff"
+	"github.com/22fortisetliber/iris/pkg/util/backoff"
 )
 
 // GetInstanceAddr returns the address to use to register the instance

@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/util/concurrency"
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/util/flagext"
+	"github.com/22fortisetliber/iris/pkg/util/concurrency"
+	"github.com/22fortisetliber/iris/pkg/util/flagext"
 )
 
 func TestTCPTransport_WriteTo_ShouldNotLogAsWarningExpectedFailures(t *testing.T) {

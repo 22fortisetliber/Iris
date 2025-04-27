@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/util/concurrency"
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/util/services"
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/util/test"
+	"github.com/22fortisetliber/iris/pkg/util/concurrency"
+	"github.com/22fortisetliber/iris/pkg/util/services"
+	"github.com/22fortisetliber/iris/pkg/util/test"
 )
 
 func TestLeaveOnStoppingDelegate(t *testing.T) {

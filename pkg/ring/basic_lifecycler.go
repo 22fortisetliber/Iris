@@ -14,8 +14,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/ring/kv"
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/util/services"
+	"github.com/22fortisetliber/iris/pkg/ring/kv"
+	"github.com/22fortisetliber/iris/pkg/util/services"
 )
 
 type BasicLifecyclerDelegate interface {
