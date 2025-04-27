@@ -12,9 +12,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/ring/kv/codec"
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/ring/kv/consul"
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/ring/kv/etcd"
+	"github.com/22fortisetliber/iris/pkg/ring/kv/codec"
+	"github.com/22fortisetliber/iris/pkg/ring/kv/consul"
+	"github.com/22fortisetliber/iris/pkg/ring/kv/etcd"
 )
 
 func withFixtures(t *testing.T, f func(*testing.T, Client)) {

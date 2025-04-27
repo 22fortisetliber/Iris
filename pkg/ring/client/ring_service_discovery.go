@@ -3,7 +3,7 @@ package client
 import (
 	"errors"
 
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/ring"
+	"github.com/22fortisetliber/iris/pkg/ring"
 )
 
 func NewRingServiceDiscovery(r ring.ReadRing) PoolServiceDiscovery {

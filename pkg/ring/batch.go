@@ -8,7 +8,7 @@ import (
 	"go.uber.org/atomic"
 	"google.golang.org/grpc/status"
 
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/util/httpgrpcutil"
+	"github.com/22fortisetliber/iris/pkg/util/httpgrpcutil"
 )
 
 type batchTracker struct {

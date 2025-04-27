@@ -18,9 +18,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/atomic"
 
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/ring/kv"
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/util/flagext"
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/util/services"
+	"github.com/22fortisetliber/iris/pkg/ring/kv"
+	"github.com/22fortisetliber/iris/pkg/util/flagext"
+	"github.com/22fortisetliber/iris/pkg/util/services"
 )
 
 var (

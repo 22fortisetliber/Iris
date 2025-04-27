@@ -21,8 +21,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	"go.uber.org/atomic"
 
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/util/flagext"
-	cortextls "gitlab.fci.vn/iaas/cortexproject/iris/pkg/util/tls"
+	"github.com/22fortisetliber/iris/pkg/util/flagext"
+	cortextls "github.com/22fortisetliber/iris/pkg/util/tls"
 )
 
 type messageType uint8

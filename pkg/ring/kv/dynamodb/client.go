@@ -11,8 +11,8 @@ import (
 	"github.com/go-kit/log/level"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/ring/kv/codec"
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/util/backoff"
+	"github.com/22fortisetliber/iris/pkg/ring/kv/codec"
+	"github.com/22fortisetliber/iris/pkg/util/backoff"
 )
 
 const (

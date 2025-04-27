@@ -13,10 +13,10 @@ import (
 	"go.etcd.io/etcd/client/pkg/v3/transport"
 	clientv3 "go.etcd.io/etcd/client/v3"
 
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/ring/kv/codec"
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/util/backoff"
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/util/flagext"
-	cortextls "gitlab.fci.vn/iaas/cortexproject/iris/pkg/util/tls"
+	"github.com/22fortisetliber/iris/pkg/ring/kv/codec"
+	"github.com/22fortisetliber/iris/pkg/util/backoff"
+	"github.com/22fortisetliber/iris/pkg/util/flagext"
+	cortextls "github.com/22fortisetliber/iris/pkg/util/tls"
 )
 
 // Config for a new etcd.Client.

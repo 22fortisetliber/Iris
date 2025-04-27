@@ -12,7 +12,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"gitlab.fci.vn/iaas/cortexproject/iris/pkg/ring/kv/codec"
+	"github.com/22fortisetliber/iris/pkg/ring/kv/codec"
 )
 
 func writeValuesToKV(t *testing.T, client *Client, key string, start, end int, sleep time.Duration) <-chan struct{} {
