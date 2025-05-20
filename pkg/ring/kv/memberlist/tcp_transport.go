@@ -22,7 +22,7 @@ import (
 	"go.uber.org/atomic"
 
 	"github.com/22fortisetliber/iris/pkg/util/flagext"
-	cortextls "github.com/22fortisetliber/iris/pkg/util/tls"
+	iristls "github.com/22fortisetliber/iris/pkg/util/tls"
 )
 
 type messageType uint8
@@ -57,8 +57,8 @@ type TCPTransportConfig struct {
 	MetricsRegisterer prometheus.Registerer `yaml:"-"`
 	MetricsNamespace  string                `yaml:"-"`
 
-	TLSEnabled bool                   `yaml:"tls_enabled"`
-	TLS        cortextls.ClientConfig `yaml:",inline"`
+	TLSEnabled bool                 `yaml:"tls_enabled"`
+	TLS        iristls.ClientConfig `yaml:",inline"`
 }
 
 func (cfg *TCPTransportConfig) RegisterFlags(f *flag.FlagSet) {

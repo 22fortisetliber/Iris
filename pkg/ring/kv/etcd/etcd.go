@@ -16,16 +16,16 @@ import (
 	"github.com/22fortisetliber/iris/pkg/ring/kv/codec"
 	"github.com/22fortisetliber/iris/pkg/util/backoff"
 	"github.com/22fortisetliber/iris/pkg/util/flagext"
-	cortextls "github.com/22fortisetliber/iris/pkg/util/tls"
+	iristls "github.com/22fortisetliber/iris/pkg/util/tls"
 )
 
 // Config for a new etcd.Client.
 type Config struct {
-	Endpoints   []string               `yaml:"endpoints"`
-	DialTimeout time.Duration          `yaml:"dial_timeout"`
-	MaxRetries  int                    `yaml:"max_retries"`
-	EnableTLS   bool                   `yaml:"tls_enabled"`
-	TLS         cortextls.ClientConfig `yaml:",inline"`
+	Endpoints   []string             `yaml:"endpoints"`
+	DialTimeout time.Duration        `yaml:"dial_timeout"`
+	MaxRetries  int                  `yaml:"max_retries"`
+	EnableTLS   bool                 `yaml:"tls_enabled"`
+	TLS         iristls.ClientConfig `yaml:",inline"`
 
 	UserName string `yaml:"username"`
 	Password string `yaml:"password"`

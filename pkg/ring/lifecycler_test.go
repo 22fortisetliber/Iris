@@ -912,7 +912,7 @@ func TestJoinInJoiningState(t *testing.T) {
 }
 
 func TestRestoreOfZoneWhenOverwritten(t *testing.T) {
-	// This test is simulating a case during upgrade of pre 1.0 cortex where
+	// This test is simulating a case during upgrade of pre 1.0 iris where
 	// older ingesters do not have the zone field in their ring structs
 	// so it gets removed. The current version of the lifecylcer should
 	// write it back on update during its next heartbeat.

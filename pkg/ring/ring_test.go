@@ -21,7 +21,7 @@ import (
 	"github.com/22fortisetliber/iris/pkg/ring/kv"
 	"github.com/22fortisetliber/iris/pkg/ring/kv/consul"
 	"github.com/22fortisetliber/iris/pkg/ring/shard"
-	"github.com/22fortisetliber/iris/pkg/ring/util"
+	"github.com/22fortisetliber/iris/pkg/util"
 	"github.com/22fortisetliber/iris/pkg/util/flagext"
 	"github.com/22fortisetliber/iris/pkg/util/services"
 	"github.com/22fortisetliber/iris/pkg/util/test"
