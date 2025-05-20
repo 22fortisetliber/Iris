@@ -19,7 +19,7 @@ import (
 
 	"github.com/22fortisetliber/iris/pkg/ring/kv"
 	shardUtil "github.com/22fortisetliber/iris/pkg/ring/shard"
-	"github.com/22fortisetliber/iris/pkg/ring/util"
+	"github.com/22fortisetliber/iris/pkg/util"
 	"github.com/22fortisetliber/iris/pkg/util/flagext"
 	"github.com/22fortisetliber/iris/pkg/util/services"
 )
@@ -152,7 +152,7 @@ func (cfg *Config) RegisterFlags(f *flag.FlagSet) {
 
 // RegisterFlagsWithPrefix adds the flags required to config this to the given FlagSet with a specified prefix
 func (cfg *Config) RegisterFlagsWithPrefix(prefix string, f *flag.FlagSet) {
-	cfg.KVStore.RegisterFlagsWithPrefix(prefix, "collectors/", f)
+	cfg.KVStore.RegisterFlagsWithPrefix(prefix, "iris/", f)
 
 	f.DurationVar(&cfg.HeartbeatTimeout, prefix+"ring.heartbeat-timeout", time.Minute, "The heartbeat timeout after which ingesters are skipped for reads/writes. 0 = never (timeout disabled).")
 	f.IntVar(&cfg.ReplicationFactor, prefix+"distributor.replication-factor", 3, "The number of ingesters to write to and read from.")
